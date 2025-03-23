@@ -1,0 +1,28 @@
+# LLM et frameworks
+langchain
+langgraph
+langchain-community
+
+# Moteur d'inférence LLM (choisir selon votre préférence)
+ollama
+# OU llama-cpp-python>=0.2.0 (décommenter si vous préférez llama.cpp)
+
+# ASR (reconnaissance vocale)
+faster-whisper
+# OU transformers>=4.36.0 (pour Canary-1B)
+torch
+torchaudio
+accelerate
+
+# TTS (synthèse vocale)
+piper-tts==1.2.0
+# OU coqui-tts>=0.15.0 (alternatives)
+
+# Gestion asynchrone et parallélisme
+aiohttp
+
+# Utilitaires
+numpy
+pillow  # Pour gérer les images si nécessaire
+sounddevice  # Pour entrée/sortie audio
+pyaudio
