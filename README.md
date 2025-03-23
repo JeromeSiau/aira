@@ -71,13 +71,14 @@ cd aira4
 
 2. Create and activate a virtual environment:
 ```bash
-python -m venv venv
+uv venv --python 3.10
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 ```
 
 3. Install dependencies:
 ```bash
-pip install -r requirements.txt
+uv pip install -r requirements.txt
+uv pip install flash-attn --no-build-isolation
 ```
 
 4. Ensure Ollama is installed and the Gemma model is downloaded:

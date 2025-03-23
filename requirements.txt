@@ -5,6 +5,7 @@ langchain-community
 
 # Moteur d'inférence LLM (choisir selon votre préférence)
 ollama
+openai
 # OU llama-cpp-python>=0.2.0 (décommenter si vous préférez llama.cpp)
 
 # ASR (reconnaissance vocale)
